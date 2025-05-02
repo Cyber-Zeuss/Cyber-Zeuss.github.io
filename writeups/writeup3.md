@@ -1,5 +1,5 @@
 
-# find persistence with kansa
+# Find persistence with kansa
 
 In the last writeup , we manually try to identify persistence mechanism for each machine individually, While this approach was informative, analyzing each system in isolation can be time-consuming and may lead to overlooking patterns. 
 
@@ -323,14 +323,11 @@ To identify suspicious domain names across systems, we can perform a frequency a
    ```
    
    This file contains a frequency analysis stack for all the domain names found in the DNS cache across **all hosts** queried by **Kansa** (not limited to workstations).
+   
+   - **example View:** 
+     ![k](/images/1.4/24.png)
 
-   - **Example View:**
-     
-     
-     ![Opening CSV with Timeline Explorer](/images/1.4/24.png)
-
-
-2. **Reviewing the Domain Frequency**:
+3. **Reviewing the Domain Frequency**:
 
    After opening the file in **Timeline Explorer**, review the list of domain names. All of the entries appear to be legitimate, except for a suspicious domain:  
    
@@ -341,7 +338,7 @@ To identify suspicious domain names across systems, we can perform a frequency a
    - **Example View:**
      ![Opening CSV with Timeline Explorer](/images/1.4/25.png)
 
-3. **Identifying the Affected Machine**:
+4. **Identifying the Affected Machine**:
 
    To find the machine that looked up this suspicious domain, we can use a simple search command or filter. Using the `HostName` column in **Timeline Explorer**:
 
