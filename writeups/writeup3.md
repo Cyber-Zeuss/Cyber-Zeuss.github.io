@@ -61,6 +61,7 @@ G:\Kansa\kansa-post-intrusion\Analysis\Autoruns-workstations\Get-ASEPImagePathLa
 ```
 
 1. Right-click on the script and choose **"Edit with Notepad++"** to review its contents.
+
 ![Kansa Analysis Scripts](/images/1.4/4.png)
 
 - **Purpose**: The script pulls the **frequency of autoruns** based on:
