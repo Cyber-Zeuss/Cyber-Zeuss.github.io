@@ -34,6 +34,7 @@ When using Kansa to collect data, the `-Analysis` option can be specified to aut
 For this investigation, we already have a directory containing the output from Kansa, and we'll organize it for our analysis.
 
  ![Filter for Verified Signatures](/images/1.4/1.png)
+
 We'll create a folder named **Autoruns-workstations** within the path:
 
 ```
