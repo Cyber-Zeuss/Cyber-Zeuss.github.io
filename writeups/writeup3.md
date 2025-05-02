@@ -325,9 +325,10 @@ To identify suspicious domain names across systems, we can perform a frequency a
    This file contains a frequency analysis stack for all the domain names found in the DNS cache across **all hosts** queried by **Kansa** (not limited to workstations).
    
    - **Example View:**
-    
-     ![k](/images/1.4/24.png)
-
+     
+   - ![k](/images/1.4/24.png)
+   
+   
 3. **Reviewing the Domain Frequency**:
 
    After opening the file in **Timeline Explorer**, review the list of domain names. All of the entries appear to be legitimate, except for a suspicious domain:  
