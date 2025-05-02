@@ -260,7 +260,7 @@ The output will be saved in the specified file, **WMIEvtFilter-workstation-stack
 
 Let's dive into the analysis of the identified WMI filters.
 
-> ![Opening CSV with Timeline Explorer](/images/1.4/.png)
+> ![Opening CSV with Timeline Explorer](/images/1.4/17.png)
 
 1. **PerformanceMonitor Filter**  
    - This filter is present on **three machines**: `base-rd-01`, `base-rd-02`, and `base-wrksn-05`. It triggers whenever there are changes to the operating system's performance data and when the system uptime is between 200 and 320 seconds within a 60-second interval. To identify which machines contain this filter, we used a PowerShell script to extract this information.
