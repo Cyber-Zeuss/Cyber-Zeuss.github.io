@@ -326,7 +326,9 @@ To identify suspicious domain names across systems, we can perform a frequency a
 
    - **Example View:**
      
+     
      ![Opening CSV with Timeline Explorer](/images/1.4/24.png)
+
 
 2. **Reviewing the Domain Frequency**:
 
